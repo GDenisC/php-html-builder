@@ -6,7 +6,8 @@ HTML builder for php.
 
 # Example
 ```php
-HTMLBuilder::start()->addTag(
+// from v1.0.1: HTMLBuilder is alias for HTMLTagBuilder
+HTMLBuilder::start('body')->addTag(
     HTMLTagBuilder::start('h1')
         ->setValue('Hello world!')
 )->end();
