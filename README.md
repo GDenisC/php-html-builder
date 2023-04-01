@@ -2,7 +2,7 @@
 HTML builder for php.
 
 # Examples
-/examples folder
+[/examples](https://github.com/GDenisC/php-html-builder/tree/main/examples)
 
 # Example
 ```php
