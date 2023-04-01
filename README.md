@@ -17,3 +17,14 @@ HTMLBuilder::start('html')->addTags(
     )
 )->end()
 ```
+in HTML like:
+```html
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Hello world!</h1>
+    </body>
+</html>
+```
