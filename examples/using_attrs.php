@@ -1,7 +1,7 @@
 <?php
 include_once '../htmlbuilder.php';
 
-HTMLBuilder::start()->addTags(
+HTMLBuilder::start('html')->addTags(
     HTMLTagBuilder::start('head')->addTags(
         HTMLTagBuilder::start('meta')
             ->setAttr('charset', 'UTF-8'),

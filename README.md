@@ -2,11 +2,11 @@
 HTML builder for php.
 
 # Examples
-[/examples](https://github.com/GDenisC/php-html-builder/tree/main/examples)
+[Examples folder](https://github.com/GDenisC/php-html-builder/tree/main/examples)
 
-# Example
 ```php
-HTMLBuilder::start()->addTag(
+// from v1.0.1: HTMLBuilder is alias for HTMLTagBuilder
+HTMLBuilder::start('html')->addTag(
     HTMLTagBuilder::start('h1')
         ->setValue('Hello world!')
 )->end();

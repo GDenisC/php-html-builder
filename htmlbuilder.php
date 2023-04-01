@@ -178,5 +178,8 @@ class HTMLTagBuilder
     }
 }
 
+/**
+ * Alias of `HTMLTagBuilder`
+ */
 class HTMLBuilder extends HTMLTagBuilder {}
 ?>
