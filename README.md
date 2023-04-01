@@ -2,7 +2,7 @@
 HTML builder for php.
 
 # Examples
-[Examples folder](https://github.com/GDenisC/php-html-builder/tree/main/examples)
+[Examples folder](https://github.com/GDenisC/php-html-builder/tree/master/examples)
 
 ```php
 /* from v1.0.1: HTMLBuilder is alias for HTMLTagBuilder */
