@@ -15,7 +15,7 @@ HTMLBuilder::start('html')->addTags(
         HTMLTagBuilder::start('h1')
             ->setValue('Hello world!')
     )
-)->end()
+)->end();
 ```
 in HTML like:
 ```html
